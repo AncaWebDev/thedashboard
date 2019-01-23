@@ -1,0 +1,129 @@
+@font-face{
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: bold;
+    src: local(ProximaNova-Regular), url('fonts/ProximaNova-Regular.otf') format('otf');
+}
+
+body{
+    width: 100%;
+}
+
+
+.nav_container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar{
+    display: inline-flex;
+    background-color: white;
+}
+
+.logo-img{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.navbar a:not(.btn):not(.dropdown-item) {
+    color:black;
+}
+
+.container{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-item{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0px, 10px, 0px, 10px;
+}
+
+.navbar a:not(.btn):not(.dropdown-item):hover{
+    color: #7a5b9a;
+}
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+    padding: 1rem 3rem;
+}
+
+.navbar_nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 991px) {
+.sidebar-collapse .navbar .navbar-toggler-bar {
+    background: black;
+    }
+}
+
+#students{
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#students-image{
+    width: 100%;
+    height: auto;
+}
+
+#dashboard{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 30px;
+}
+
+.tools-container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 30px;
+    width: 100%;
+}
+
+.tool{
+    background-color: #EEEEEE;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 30px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-flow: column wrap;
+   align-content: center;
+}
+
+.tool:hover{
+    background-color: #CCCCCC;
+    color: black;
+    text-decoration: none;
+}
+
+
+.tool-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.tool-p{
+    margin-bottom: 0px;
+}
+
+.tool a {
+    text-decoration: none;
+    color: black;
+}
+
